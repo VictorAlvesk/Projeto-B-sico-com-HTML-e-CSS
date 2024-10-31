@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style/form.css"/>
+</head>
+<body>
+    <div class="principal-container">
+
+        <div class="title-container">
+            <h1>Quer saber mais?</h1>
+            <p>Preencha os campos a seguir:</p>
+        </div>
+
+        <div class="form-container">
+            <form method="get">
+                <fieldset>
+                    <legend>Informações Sobre Você:</legend>
+                    <label for="name">Nome</label>
+                    <input class="form-input" type="text" name="name" required placeholder="Digite seu nome">
+                    <br>
+                    <label for="lastname">Sobrenome</label>
+                    <input class="form-input" type="text" name="lastname" required placeholder="Digite seu sobrenome">
+                    <br>
+                    <label  for="email">Email:</label>
+                    <input class="form-input" type="email" name="email" required placeholder="Digite seu email">
+                </fieldset>
+
+                <br>
+                <input type="reset" value="Resetar">
+                <input type="submit" value="Confirmar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-color: #ccc;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.principal-container {
+    background-color: white;
+    margin: 75px 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+.title-container {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.imagem1-container {
+    text-align: center;
+}
+
+.imagem1-container img{
+    max-width: 1000px;
+    max-height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Biograpy-container {
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 2px dashed #ddd;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.quotes-container {
+    background-color: #ddd;
+    font-family:Helvetica;
+    font-size: 25px;
+    border-radius: 10px;
+    font-style: italic;
+    padding: 30px;
+    margin: 25px;
+    border: 2px solid black;
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.quotes-container p{
+    text-align: left;
+    font-weight: 100;
+}
+
+
+.curiosities-container {
+    padding-left: 50px;
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 2px dashed #ddd;
+}
+
+.moreinfo-container {
+    font-size: 20px;
+    text-align: left;
+}
+
+.moreinfo-container a{
+    text-decoration: none;
+}
+
+.novidades {
+    font-size: 20px;
+    text-align: left;
+}
+
+.botao {
+    text-decoration: none;
+    margin-left: 950px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(113, 113, 113);
+    color: #000;
+    transition: background-color 0.8s ease;
+}
+
+.botao:hover {
+    background-color: rgb(199, 199, 199);
+}
